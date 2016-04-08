@@ -1,0 +1,130 @@
+*{
+            padding: 0;
+            margin:0;
+        }
+        html,body {
+            width: 100%;
+            height: 100%;
+        }
+        .wrapper {
+            position: relative;
+            width: 90%;
+            height: 60%;
+            margin:10% auto 8% auto;
+            /*display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items:center;
+            flex-wrap: wrap;*/
+        }
+        .div {
+            width: 25%;
+            height: 20%;
+            text-align: center;
+            float: left;
+            position: relative;
+            background-image: url('desk.png');
+            /*background-position: 1% 1%;*/
+            background-size: 400% 500%;
+            background-repeat: no-repeat;
+        }
+        .div span {
+            /*text-align: center;
+            
+            display: inline-block;
+            vertical-align: middle;*/
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .wrapper img {
+            width: 70%;
+            height:auto;
+            position: absolute;
+            top:12%;
+            left: 10%;
+        }
+        #top{
+            width: 100%;
+            height: auto;
+        }
+        #black {
+            width: 50%;
+        }
+        .header {
+            margin:0 auto;
+            text-align: center;
+            width: 67%;
+            height: 14%;
+        }
+        .footer {
+            width: 100%;
+            height: 14%;
+            text-align: center;
+        }
+        .footer img {
+            width: 68%;
+            height: 80%;
+            max-width: 100%;
+        }
+        #alert1 {
+            display: none;
+            position: absolute;
+            top:0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.75;
+            background-color: gray;
+            z-index: 10;
+        }
+        #alert2 img,#alert3 img {
+            position: absolute;
+            width:50%;
+            height:20%;
+            top:2%;
+            left: 48%;
+        }
+        .alert {
+            width:92%;
+            height: 52%;
+            display:none;
+            position: fixed;
+            top:24%;
+            left: 4%;
+            box-sizing:border-box;
+            background-color: white;
+            z-index: 11;
+        }
+        #others {
+            padding-top: 25%;
+            padding-left: 15%;
+            box-sizing:border-box;
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            background-size: 80% 50%;
+        }
+        form {
+            margin:20% auto 11% auto;
+            height: 86%;
+            text-align: center;
+        }
+        input {
+            width: 80%;
+            height: 13%;
+            display: inline-block;
+            font-family: "微软雅黑";
+            background-color: #e5e5e5;
+            border:0;
+        }
+        input[class="submit"] {
+            height: 16%;
+            border:1px solid red;
+            border-radius: 4% 4%;
+        }
+        form input:nth-child(1),form input:nth-child(2) {
+            margin-bottom:5%;
+        }
